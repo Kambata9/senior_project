@@ -1,0 +1,359 @@
+{
+  "1": {
+    "default_servings": 4,
+    "image": "../images/chicken_salad.jpg",
+    "steps": [
+      "Chop vegetables and chicken.",
+      "Mix all ingredients.",
+      "Season with salt and pepper.",
+      "Toss salad and serve."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 21,
+        "ingredient_name": "Chicken Breast",
+        "amount": "200 g"
+      },
+      {
+        "ingredient_id": 14,
+        "ingredient_name": "Lettuce",
+        "amount": "100 g"
+      },
+      {
+        "ingredient_id": 15,
+        "ingredient_name": "Tomato",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 16,
+        "ingredient_name": "Cucumber",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 17,
+        "ingredient_name": "Bell Pepper",
+        "amount": "1 unit"
+      }
+    ]
+  },
+  "2": {
+    "default_servings": 4,
+    "image": "../images/fruit_smoothie.jpg",
+    "steps": [
+      "Blend all fruits and yogurt.",
+      "Pour into glasses.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 2,
+        "ingredient_name": "Banana",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 6,
+        "ingredient_name": "Mango",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 5,
+        "ingredient_name": "Blueberry",
+        "amount": "50 g"
+      },
+      {
+        "ingredient_id": 4,
+        "ingredient_name": "Strawberry",
+        "amount": "50 g"
+      },
+      {
+        "ingredient_id": 33,
+        "ingredient_name": "Yogurt",
+        "amount": "150 ml"
+      }
+    ]
+  },
+  "3": {
+    "default_servings": 4,
+    "image": "../images/beef_stew.jpg",
+    "steps": [
+      "Brown the beef.",
+      "Add vegetables and simmer.",
+      "Cook until tender.",
+      "Serve hot."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 22,
+        "ingredient_name": "Beef Steak",
+        "amount": "300 g"
+      },
+      {
+        "ingredient_id": 19,
+        "ingredient_name": "Potato",
+        "amount": "2 units"
+      },
+      {
+        "ingredient_id": 11,
+        "ingredient_name": "Carrot",
+        "amount": "2 units"
+      },
+      {
+        "ingredient_id": 18,
+        "ingredient_name": "Onion",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 15,
+        "ingredient_name": "Tomato",
+        "amount": "2 units"
+      }
+    ]
+  },
+  "4": {
+    "default_servings": 4,
+    "image": "../images/veggie_stir_fry.jpg",
+    "steps": [
+      "Chop all vegetables.",
+      "Stir fry on high heat.",
+      "Season with soy sauce.",
+      "Serve immediately."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 12,
+        "ingredient_name": "Broccoli",
+        "amount": "150 g"
+      },
+      {
+        "ingredient_id": 11,
+        "ingredient_name": "Carrot",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 17,
+        "ingredient_name": "Bell Pepper",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 18,
+        "ingredient_name": "Onion",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 46,
+        "ingredient_name": "Mushroom",
+        "amount": "100 g"
+      },
+      {
+        "ingredient_id": 20,
+        "ingredient_name": "Zucchini",
+        "amount": "1 unit"
+      }
+    ]
+  },
+  "5": {
+    "default_servings": 4,
+    "image": "../images/tomato_avocado_salad.jpg",
+    "steps": [
+      "Slice tomatoes and avocado.",
+      "Mix with cucumber, lettuce, and onion.",
+      "Drizzle dressing.",
+      "Serve fresh."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 15,
+        "ingredient_name": "Tomato",
+        "amount": "2 units"
+      },
+      {
+        "ingredient_id": 44,
+        "ingredient_name": "Avocado",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 16,
+        "ingredient_name": "Cucumber",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 14,
+        "ingredient_name": "Lettuce",
+        "amount": "50 g"
+      },
+      {
+        "ingredient_id": 18,
+        "ingredient_name": "Onion",
+        "amount": "1 unit"
+      }
+    ]
+  },
+  "6": {
+    "default_servings": 4,
+    "image": "../images/grilled_salmon.jpg",
+    "steps": [
+      "Season salmon.",
+      "Grill salmon and vegetables.",
+      "Serve with a lemon wedge."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 49,
+        "ingredient_name": "Salmon",
+        "amount": "250 g"
+      },
+      {
+        "ingredient_id": 12,
+        "ingredient_name": "Broccoli",
+        "amount": "100 g"
+      },
+      {
+        "ingredient_id": 11,
+        "ingredient_name": "Carrot",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 18,
+        "ingredient_name": "Onion",
+        "amount": "1 unit"
+      }
+    ]
+  },
+  "7": {
+    "default_servings": 4,
+    "image": "../images/pork_chop_with_apples.jpg",
+    "steps": [
+      "Season pork chop.",
+      "Sauté with apple slices and onions.",
+      "Cook until pork is tender.",
+      "Serve warm."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 23,
+        "ingredient_name": "Pork Chop",
+        "amount": "300 g"
+      },
+      {
+        "ingredient_id": 1,
+        "ingredient_name": "Apple",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 18,
+        "ingredient_name": "Onion",
+        "amount": "1 unit"
+      }
+    ]
+  },
+  "8": {
+    "default_servings": 4,
+    "image": "../images/shrimp_salad.jpg",
+    "steps": [
+      "Boil shrimp until pink.",
+      "Mix with vegetables.",
+      "Toss with dressing.",
+      "Serve chilled."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 27,
+        "ingredient_name": "Shrimp",
+        "amount": "200 g"
+      },
+      {
+        "ingredient_id": 14,
+        "ingredient_name": "Lettuce",
+        "amount": "50 g"
+      },
+      {
+        "ingredient_id": 15,
+        "ingredient_name": "Tomato",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 16,
+        "ingredient_name": "Cucumber",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 44,
+        "ingredient_name": "Avocado",
+        "amount": "1 unit"
+      }
+    ]
+  },
+  "9": {
+    "default_servings": 4,
+    "image": "../images/vegetarian_pizza.jpg",
+    "steps": [
+      "Prepare pizza dough.",
+      "Spread tomato sauce.",
+      "Add vegetables and cheese.",
+      "Bake until golden."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 15,
+        "ingredient_name": "Tomato",
+        "amount": "2 units"
+      },
+      {
+        "ingredient_id": 17,
+        "ingredient_name": "Bell Pepper",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 18,
+        "ingredient_name": "Onion",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 46,
+        "ingredient_name": "Mushroom",
+        "amount": "100 g"
+      },
+      {
+        "ingredient_id": 39,
+        "ingredient_name": "Mozzarella",
+        "amount": "150 g"
+      }
+    ]
+  },
+  "10": {
+    "default_servings": 4,
+    "image": "../images/mixed_fruit_bowl.jpg",
+    "steps": [
+      "Chop all fruits.",
+      "Mix together in a bowl.",
+      "Chill and serve."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": 1,
+        "ingredient_name": "Apple",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 2,
+        "ingredient_name": "Banana",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 3,
+        "ingredient_name": "Orange",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 6,
+        "ingredient_name": "Mango",
+        "amount": "1 unit"
+      },
+      {
+        "ingredient_id": 43,
+        "ingredient_name": "Kiwi",
+        "amount": "1 unit"
+      }
+    ]
+  }
+}
