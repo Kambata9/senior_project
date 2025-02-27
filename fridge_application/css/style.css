@@ -1,10 +1,10 @@
 /* css/style.css */
 body {
     font-family: monospace;
-    background-color: #ABBA7C;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
-    color: #3D5300;
+    color: #000000;
 }
 
 .container {
@@ -14,11 +14,11 @@ body {
 }
 
 h1, h2 {
-    color: #F09319;
+    color: #000000;
 }
 
 button {
-    background-color: #FFE31A;
+    background-color: gray;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -27,8 +27,8 @@ button {
 }
 
 button:hover {
-    background-color: #F09319;
-    color: #FFF;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 /* Modal styles */
@@ -45,16 +45,16 @@ button:hover {
 }
 
 .modal-content {
-    background-color: #ABBA7C;
+    background-color: #FFFFFF;
     margin: 10% auto;
     padding: 20px;
-    border: 1px solid #3D5300;
+    border: 1px solid #000000;
     width: 50%;
-    color: #3D5300;
+    color: #000000;
 }
 
 .close {
-    color: #3D5300;
+    color: #000000;
     float: right;
     font-size: 28px;
     font-weight: bold;
