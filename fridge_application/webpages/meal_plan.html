@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Additional styling for meal plan table and comment textareas */
+        table.meal-plan {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table.meal-plan th, table.meal-plan td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        table.meal-plan th {
+            background-color: #f4f4f4;
+        }
+        .dayComment {
+            width: 100%;
+            height: 60px;  /* Increased height for 100 characters */
+            resize: vertical;
+        }
+        .controlButtons {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- Navigation include -->
+<div id="nav"></div>
+
+<div class="container">
+    <h1>Meal Plan Management</h1>
+
+    <!-- Date Information -->
+    <div id="dateInfo">
+        <p>Calendar Week: <span id="calendarWeek"></span></p>
+        <p>Today: <span id="currentDay"></span></p>
+    </div>
+
+    <!-- Meal Plan Controls -->
+    <div id="mealPlanSelection">
+        <label for="mealPlanDropdown">Select a Meal Plan: </label>
+        <select id="mealPlanDropdown">
+            <option value="">--Select--</option>
+        </select>
+        <button id="applyMealPlanBtn">Apply Meal Plan</button>
+        <button id="resetMealPlanBtn">Reset Meal Plan</button>
+    </div>
+
+    <!-- Generate Meal Plan Button -->
+    <div class="controlButtons">
+        <button id="generateMealPlanBtn">Generate Plan For the Rest of the Week</button>
+    </div>
+
+    <!-- Meal Plan Table -->
+    <table class="meal-plan" id="mealPlanTable">
+        <thead>
+        <tr>
+            <th>Day</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+            <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Rows will be populated via JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Footer include -->
+<div id="foot"></div>
+
+<script src="../js/meal_plan.js"></script>
+</body>
+</html>
