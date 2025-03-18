@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="../css/nav_style.css">
+
+<nav>
+  <ul>
+    <li><a href="../webpages/my_account.html">My Account</a></li>
+    <li><a href="../webpages/recipes.html">Recipes</a></li>
+    <li><a href="../webpages/my_inventory.html">My Inventory</a></li>
+    <li><a href="../webpages/shopping_list.html">Shopping List</a></li>
+    <li><a href="../webpages/meal_plan.html">Meal Plan</a></li>
+    <!-- Admin-only page -->
+    <li id="adminDashboardLink"><a href="../webpages/admin_dashboard.html">Admin Dashboard</a></li>
+  </ul>
+</nav>
+
+<script>
+  // Check user role stored in sessionStorage
+  const userRole = sessionStorage.getItem('user_role');
+  if(userRole !== 'admin'){
+    // Hide the Admin Dashboard link for non-admin users
+    const adminLink = document.getElementById('adminDashboardLink');
+    if(adminLink){
+      adminLink.style.display = 'none';
+    }
+  }
+</script>
