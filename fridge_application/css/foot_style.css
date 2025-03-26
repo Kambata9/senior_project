@@ -1,0 +1,18 @@
+footer {
+    background-color: #3F4F44;
+    font-family: monospace Monaco;
+    color: #fff;
+    text-align: left;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 150px #3f4f44;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 95%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
