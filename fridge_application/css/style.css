@@ -1,0 +1,227 @@
+/* css/style.css */
+body {
+    font-family: monospace Monaco;
+    background-color: #DCD7C9;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+button {
+    background-color: #3F4F44;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #F39E60;
+    color: #FFFFFF;
+}
+
+/* Modal styles */
+/* General Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: #A27B5C;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 150px #3f4f44;
+    padding: 20px;
+    text-align: center;
+}
+
+.modal h1, h2 {
+    color: #fff;
+}
+
+.modal-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+/* Modal Close Button */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #fff; /* Set to white */
+}
+
+.modal-close:hover {
+    color: #F39E60;
+}
+
+/* Form Inputs */
+.modal input,
+.modal select,
+.modal textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.modal button {
+    width: 100%;
+    padding: 10px;
+    background: #3F4F44;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.modal button:hover {
+    background: #F39E60;
+}
+
+/* Password Strength Indicator */
+.password-strength {
+    font-size: 12px;
+    margin-top: -5px;
+    text-align: left;
+    color: #ccc;
+}
+
+/* Subscription Plan Styles */
+.subscription-plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.plan {
+    padding: 10px;
+    border: 1px solid #fff;
+    width: 45%;
+    text-align: center;
+    cursor: pointer;
+}
+.plan:hover {
+    background: #222;
+}
+
+.close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Table Header Styling */
+table thead {
+    background-color: #A27B5C; /* Header background color */
+    color: #000; /* White text for contrast */
+    font-size: 14px;
+}
+
+/* Table Borders */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #000; /* Table outer border */
+}
+
+table th, table td {
+    border: 1px solid #000; /* Borders for each cell */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table Row Hover Effect */
+table tbody tr:hover {
+    background-color: #E8D8C4; /* Light background on hover */
+}
+
+/* Center the dietary preferences modal */
+.dietary-preferences-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Align text left of radio buttons */
+.dietary-preferences-container label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.dietary-preferences-container input[type="radio"] {
+    order: 2; /* Move radio button to the right */
+}
+
+.dietary-preferences-container span {
+    order: 1; /* Move text to the left */
+}
+
+.text-box {
+    background-color: #A27B5C;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    width: 90%;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-message.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.modal-message.error {
+    background-color: #d20d0d;
+    color: white;
+}
+
+.modal-message button {
+    border-radius: 5px;
+}
