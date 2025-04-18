@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        h2 {
+            color: #000;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .metric-box {
+            background-color: #A27B5C;
+            padding: 10px;
+            width: 30%;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+            align-content: center;
+        }
+        .metric-box h3 {
+            margin-top: 0;
+        }
+
+        .search-container {
+            margin-bottom: 10px;
+        }
+        .search-container input {
+            width: 20%;
+            padding: 8px;
+            border: 1px solid #A27B5C;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .search-container button {
+            padding: 8px 12px;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-container button:hover {
+            background-color: #F39E60;
+        }
+
+        .pagination {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .pagination button {
+            padding: 8px 16px;
+            margin: 0 5px;
+            border: none;
+
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .pagination button:hover {
+            background-color: #F39E60;
+        }
+
+        button {
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<!-- Navigation -->
+<div id="nav"></div>
+
+<!-- Admin Dashboard Container -->
+<div class="container admin-dashboard">
+    <h1>Administrator Dashboard</h1>
+
+    <!-- Performance Metrics -->
+    <div class="metrics">
+        <!-- Top 3 Favorite Recipes -->
+        <div class="metric-box" id="metric-fav-recipes">
+            <h3>Top 3 Favorite Recipes</h3>
+            <table id="topFavoritesTable">
+                <thead>
+                <tr>
+                    <th>Recipe Name</th>
+                    <th>Favorites</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Populated via JS -->
+                </tbody>
+            </table>
+        </div>
+        <!-- Total Users -->
+        <div class="metric-box" id="metric-total-users">
+            <h3 style = "font-size: 22px">Total Users</h3>
+            <p id="totalUsers" style = "font-size: 18px">0</p>
+        </div>
+        <!-- Total Premium Users -->
+        <div class="metric-box" id="metric-premium-users">
+            <h3 style = "font-size: 22px">Premium Users</h3>
+            <p id="totalPremiumUsers" style = "font-size: 18px">0</p>
+        </div>
+
+    </div>
+
+    <!-- Ingredients Management Table -->
+    <h2>Ingredients Management</h2>
+    <div class="search-container">
+        <label for="ingredientSearch"></label><input type="text" id="ingredientSearch" placeholder="Search Ingredients">
+        <button id="clearIngredientFilters">Clear Filters</button>
+    </div>
+    <button id="addIngredientBtn">Add Ingredient</button>
+    <table id="ingredientsTable">
+        <thead>
+        <tr>
+            <th>Ingredient Name</th>
+            <th>Ingredient Type</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Populated via JS -->
+        </tbody>
+    </table>
+    <div class="pagination" id="ingredientsPagination"></div>
+</div>
+
+<!-- Add Ingredient Modal -->
+<div class="modal" id="addIngredientModal">
+    <span class="close" id="closeAddIngredient">&times;</span>
+    <h2>Add Ingredient</h2>
+    <div class="modal" style="display: none;"></div>
+    <div class="modal-message" style="display: none;"></div>
+    <form id="addIngredientForm">
+        <label for="newIngredientType">Ingredient Type:</label>
+        <select id="newIngredientType" required>
+            <option value="">Select Type</option>
+            <option value="fruit">Fruit</option>
+            <option value="vegetable">Vegetable</option>
+            <option value="meat">Meat</option>
+            <option value="dairy">Dairy</option>
+        </select>
+        <label for="newIngredientName">Ingredient Name:</label>
+        <input type="text" id="newIngredientName" placeholder="Ingredient Name" required>
+        <button type="submit">Add Ingredient</button>
+    </form>
+</div>
+
+<script src="../js/admin_dashboard.js"></script>
+</body>
+</html>

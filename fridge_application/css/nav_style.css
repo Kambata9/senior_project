@@ -1,0 +1,32 @@
+nav {
+    font-family: monospace Monaco;
+    margin: 10px auto;
+    background-color: #3F4F44;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #3f4f44;
+    width: 95%;
+    max-width: 95%;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #F39E60;
+}
